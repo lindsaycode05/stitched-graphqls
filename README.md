@@ -40,7 +40,7 @@
 - Decrypt the .env file (as a development environment, I will leave the master password here, otherwise it should be stored in a secure cloud service ☁️)
 ```bash
 - openssl enc -d -aes-256-cbc -in .env.enc -out .env
-- When prompted, enter the master password: h54U^%&Jf2dSF#$@FWS.
+- When prompted, enter the master password: h54U^%&Jf2dSF#$@FWS
 - You should now have the .env file generated in the /backend folder
 ```
 ### Frontend Setup
