@@ -2,6 +2,8 @@
 📒 This project showcases a full-stack application that combines a React frontend with a GraphQL backend, featuring weather data, SpaceX launch data, and access logging functionalities.
 
 <br>
+<br>
+
 🚀 Features
 
 - **GraphQL Backend**: Custom GraphQL API integrating REST and GraphQL sources.
