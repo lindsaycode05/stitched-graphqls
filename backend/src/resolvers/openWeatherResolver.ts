@@ -33,10 +33,10 @@ export const OpenWeatherResolver = {
           throw new Error('Unauthorized');
         }
 
-        // Randomly select 30 cities
+        // Randomly select 10 cities
         const selectedCities = ninetyCities
           .sort(() => 0.5 - Math.random())
-          .slice(0, 30);
+          .slice(0, 10);
 
         // Fetch coordinates in parallel
         const coordinatesPromises = selectedCities.map(fetchCoordinates);
