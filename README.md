@@ -93,7 +93,8 @@ query getAccessLogs {
     }
 }
 ```
-- URL of the query is `http://localhost:4000/graphql`, choose `POST` request and run the query 
+- Make sure the backend server is running
+- Put the URL of the query to be `http://localhost:4000/graphql`, choose `POST` request and run the query 
 - This will query the MongoDB database and you will see the access logs' data in Postman (**login**, **weather API** and **spaceX API** operations)
 
 
