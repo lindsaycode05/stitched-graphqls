@@ -64,8 +64,8 @@
 ### 🔑 Authentication Details for using the app
 
 The credentials are hardcoded for demonstration purposes.
-- Username: admin
-- Password: password
+- Username: `admin`
+- Password: `password`
 
 ### 📈 `Access Logs` Querying
 
