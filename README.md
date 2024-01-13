@@ -72,9 +72,15 @@ The credentials are hardcoded for demonstration purposes.
 #### To query the access logs from *Postman* (authenticated query) follow this instruction:
 
 - #### Video demonstration:
-https://github.com/lindsaycode05/stitched-graphqls/assets/88434441/fafa1a3b-a93b-4bb5-acef-8057083e978c
+
+https://github.com/lindsaycode05/stitched-graphqls/assets/88434441/e3aa26cd-5830-42ec-8f26-36b582f03274
+
+
+
 <br>
 <br>
+
+
 - After you logged into the app in your browser, go to the local storage of your browser and copy the JWT token from (`token` field)
 - In Postman, choose 'Bearer Token' under the 'Authorization' tab and paste the token.
 - Under the 'Body' tab, select 'GraphQL' and paste the following query:
